@@ -37,3 +37,11 @@ function listarAlunos(alunos) {
 }
 
 let alunosMatriculados = listarAlunos(alunos);
+
+//EXERCÍCIO 04
+for (i = 0; i < 11; i++) {
+    let numero = 8;
+    let multiplicacao = numero * i;
+    
+    document.write("<br>" + "8 X " + i + " = " + multiplicacao);
+}
