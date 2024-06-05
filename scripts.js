@@ -28,3 +28,12 @@ function validarMedia(media) {
 }
 
 let comunicarMedia = validarMedia(media);
+
+// EXERCÍCIO 03
+let alunos = ["helena", "renata", "matheus", "marilia", "pamela"];
+
+function listarAlunos(alunos) {
+    alunos.forEach((nome) => { document.write("<br>" + nome)});
+}
+
+let alunosMatriculados = listarAlunos(alunos);
