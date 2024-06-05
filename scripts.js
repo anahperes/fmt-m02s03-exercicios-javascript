@@ -1,3 +1,4 @@
+// EXERCÍCIO 01
 let notas = [3, 4, 7, 9];
 
 function calcularMedia(notas) {
@@ -13,3 +14,17 @@ function calcularMedia(notas) {
 
 let media = calcularMedia(notas);
 console.log(media);
+
+// EXERCÍCIO 02
+function validarMedia(media) {
+    media > 7 ?  document.write("Parabéns você passou na média!") : document.write("Infelizmente você está de recuperação.");
+    
+    /* OUTRA FORMA DE FAZER A MESMA COISA:
+    if(media > 7) {
+        document.write("Parabéns você passou na média!");
+    } else {
+        document.write("Infelizmente você está de recuperação.");
+    } */
+}
+
+let comunicarMedia = validarMedia(media);
