@@ -45,3 +45,16 @@ for (i = 0; i < 11; i++) {
     
     document.write("<br>" + "8 X " + i + " = " + multiplicacao);
 }
+
+// EXERCÍCIO 05
+let pergunta01 = window.prompt("Qual o nome do aluno?");
+let pergunta02 = window.prompt("Qual a idade do aluno?");
+let pergunta03 = window.prompt("Qual a série do aluno?");
+let pergunta04 = window.prompt("Qual o nome da escola?");
+let pergunta05 = window.prompt("Qual a sua matéria favorita?");
+
+let confirmacao = window.confirm("Você confirma que os dados inseridos são verdadeiros?");
+
+if(confirmacao) {
+    document.write("<br> Nome: " + pergunta01, "<br> Idade: " + pergunta02, "<br> Série: " + pergunta03, "<br> Escola: " + pergunta04, "<br> Matéria favorita: " + pergunta05);
+} else {document.write("<br> Dados não confirmados.")};
